@@ -1,0 +1,12 @@
+﻿@model LoginUser
+<h1>LogOut</h1>
+
+<h3>Are you sure you want to logout </h3>
+<div>
+    <h4>User LogOut</h4>
+    <hr />
+    <form asp-action="Logout">
+        <button type="submit" class="btn btn-danger m-2"> logout </button>
+        <a asp-action="Login" asp-controller="Employee" class="btn btn-primary">Back to Employee List</a>
+    </form>
+</div>
